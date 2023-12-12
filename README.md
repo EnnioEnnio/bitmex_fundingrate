@@ -22,6 +22,8 @@ Before running the script, configure the following parameters in the script:
 -  `start_date`: The start date for the data retrieval, in the format "YYYY-MM-DD HH:MM" (e.g., "2022-01-01 00:00").
 - `end_date`: The end date for the data retrieval, in the format "YYYY-MM-DD HH:MM" (e.g., "2022-01-01 00:00").
 
+also configure weather you want to export the data to an Excel file or an CSV file by commenting out the line you don't want to use at the end of the script.
+
 Run the script using Python: 
 ```bash
 python BitmexFundingRateFetcher.py
